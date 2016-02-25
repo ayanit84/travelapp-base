@@ -3,10 +3,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.infosys.hackathon</groupId>
 	<artifactId>travelapp-base</artifactId>
-	<version>1.0</version>
 	<packaging>pom</packaging>
 	<name>Travel App Base</name>
-	<description>base of all projects holding compiler version etc.</description>
+	<description>base of all projects holding compiler version, contributor details etc.</description>
 	<build>
 		<pluginManagement>
 			<plugins>
@@ -32,4 +31,43 @@
 			</plugin>
 		</plugins>
 	</build>
+	<organization>
+		<name>Global hackathon 2016</name>
+	</organization>
+	<contributors>
+		<contributor>
+			<email>saikamini.9@gmail.com</email>
+			<name>Kamini Sahu</name>
+			<roles>
+				<role>UI Designer</role>
+				<role>Service Writer</role>
+				<role>Web Developer</role>
+				<role>Documentation</role>
+			</roles>
+			<organization>Infosys</organization>
+		</contributor>
+		<contributor>
+			<email>gd87200@gmail.com</email>
+			<name>Guru Padhy</name>
+			<roles>
+				<role>Web Developer</role>
+				<role>Service Writer</role>
+				<role>Data Analytics</role>
+				<role>Documentation</role>
+			</roles>
+			<organization>Infosys</organization>
+		</contributor>
+		<contributor>
+			<email>ayanit84@gmail.com</email>
+			<name>Ayan Chakraborty</name>
+			<roles>
+				<role>Web Developer</role>
+				<role>Service Writer</role>
+				<role>Architectural Design</role>
+				<role>Documentation</role>
+			</roles>
+			<organization>Infosys</organization>
+		</contributor>
+	</contributors>
+	<version>1.0</version>
 </project>
